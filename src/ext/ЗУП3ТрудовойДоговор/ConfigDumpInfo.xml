@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.5">
+	<ConfigVersions>
+		<Metadata name="Catalog.Сотрудники" id="9ef78a2a-11cc-4891-8faf-a0c39fc47c36" configVersion="28657380b76ea9da414596f2735744784bf9cb4e"/>
+		<Metadata name="Catalog.Сотрудники.ManagerModule" id="9ef78a2a-11cc-4891-8faf-a0c39fc47c36.3" configVersion="7f6fae363a528ef65cc66fc446fa21d19fb0236c"/>
+		<Metadata name="CommonPicture.bn_Логотип16" id="ae5dd4a2-47f6-472d-bfbb-0591ab8195f5" configVersion="e50b2ac31edcf7c5d6de21a8261c68024d18ad24"/>
+		<Metadata name="CommonPicture.bn_Логотип16.Picture" id="ae5dd4a2-47f6-472d-bfbb-0591ab8195f5.0" configVersion="a1efbc2ab3ca7144272671145e93d078984b6cf0"/>
+		<Metadata name="Configuration.ТрудовойДоговор" id="60cbd976-c47b-478f-923a-be2b68074f0e" configVersion="173971cfbd62e9444788922e8c1abf45a05905f7"/>
+		<Metadata name="DataProcessor.bn_ПечатьТрудовогоДоговора" id="2d91a86d-fb21-479e-92bd-cf76a0ee5ac9" configVersion="e8fdcef855c2631c10d325598175d6ea5addb45c"/>
+		<Metadata name="DataProcessor.bn_ПечатьТрудовогоДоговора.ManagerModule" id="2d91a86d-fb21-479e-92bd-cf76a0ee5ac9.2" configVersion="5cc0c543ff27c7af84f6c01e28f317eddccfb68b"/>
+		<Metadata name="DataProcessor.bn_ПечатьТрудовогоДоговора.Template.bn_ШаблонТрудовогоДоговора" id="36efbf55-660f-40b2-877c-6c96b7b6e25a" configVersion="61efe45ea1d51ba9f06112ec7b329deb445b6764"/>
+		<Metadata name="DataProcessor.bn_ПечатьТрудовогоДоговора.Template.bn_ШаблонТрудовогоДоговора.Template" id="36efbf55-660f-40b2-877c-6c96b7b6e25a.0" configVersion="0e087bd5913a2219828d639f4b88b78093aef4e7"/>
+		<Metadata name="Language.Русский" id="c3308f45-7285-4aaa-8a01-ed617d6b9f4b" configVersion="835c721e9c296660a01a819c42e71c86c23a82bc"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
