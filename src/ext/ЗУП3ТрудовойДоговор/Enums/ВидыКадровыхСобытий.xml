@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Enum uuid="cc9b6476-d329-43f1-b96c-f7bbca81928f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыКадровыхСобытий" category="Ref">
+				<xr:TypeId>c327462f-151d-4956-95bd-489852626fbd</xr:TypeId>
+				<xr:ValueId>edce6263-c5ee-4852-8804-7d911b139f14</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыКадровыхСобытий" category="Manager">
+				<xr:TypeId>a71ee9df-4581-4624-8a82-d24c519b1ba1</xr:TypeId>
+				<xr:ValueId>5a799115-68f7-47bb-9370-50b9e38b22c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыКадровыхСобытий" category="List">
+				<xr:TypeId>39a76cfd-4142-4414-8e79-1a02506afa2d</xr:TypeId>
+				<xr:ValueId>f78b6a2e-79e4-44f4-820c-413d555ef1ea</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыКадровыхСобытий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="4e725149-0f0c-4900-b0c8-5e15f459ab92">
+				<Properties>
+					<Name>Прием</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b880a9e4-638f-44a1-8960-6f76ffdaf5a1">
+				<Properties>
+					<Name>НачальныеДанные</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

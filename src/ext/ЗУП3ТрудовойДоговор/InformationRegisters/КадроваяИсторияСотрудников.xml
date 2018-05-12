@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<InformationRegister uuid="bd9c56d4-0d40-4c97-a85a-114bc8a5e476">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КадроваяИсторияСотрудников" category="Record">
+				<xr:TypeId>d7299225-f745-46b0-840a-8e2d6126e3e7</xr:TypeId>
+				<xr:ValueId>fcd2fd26-217f-4e48-94bd-147548a70717</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КадроваяИсторияСотрудников" category="Manager">
+				<xr:TypeId>0e266d9a-d162-4aba-ac89-f6ef388b1992</xr:TypeId>
+				<xr:ValueId>f1dfe72d-eaf0-4c8e-8590-f769f632033b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КадроваяИсторияСотрудников" category="Selection">
+				<xr:TypeId>8eca4e3c-290d-41b6-aabc-27537267bc65</xr:TypeId>
+				<xr:ValueId>dfbb706a-7da1-4c2d-927e-21828ce5d721</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КадроваяИсторияСотрудников" category="List">
+				<xr:TypeId>d6cc14f3-7175-4a94-b3ce-3efa107ea765</xr:TypeId>
+				<xr:ValueId>117295df-dd39-47bf-9856-830d486977d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КадроваяИсторияСотрудников" category="RecordSet">
+				<xr:TypeId>4cf36ea5-09bc-44e1-b631-a1eb405eaaf3</xr:TypeId>
+				<xr:ValueId>c41c460a-3d83-490e-a4aa-a3604a536efd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КадроваяИсторияСотрудников" category="RecordKey">
+				<xr:TypeId>85612aab-2c6c-46e3-81a8-c34afc6604ce</xr:TypeId>
+				<xr:ValueId>64276af7-8bce-4284-b783-561b2022deac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КадроваяИсторияСотрудников" category="RecordManager">
+				<xr:TypeId>494537d6-db6d-4b33-b23e-75d010ad5c6e</xr:TypeId>
+				<xr:ValueId>d23ecbcf-c534-48dc-a20a-790e0fd34b6e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КадроваяИсторияСотрудников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="0b75e0fc-649e-4071-8b07-cdefb274e04e">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="305c667b-b055-426a-9545-cf359ace9388">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="ce703274-ed1d-45a0-b641-19671a3aa13f">
+				<Properties>
+					<Name>Должность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="3df70f2e-bbff-4256-ba5a-6a939841e6e8">
+				<Properties>
+					<Name>КоличествоСтавок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>22</v8:Digits>
+							<v8:FractionDigits>20</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="1f2bc5ea-503e-4db8-8f2d-5d4c35834529">
+				<Properties>
+					<Name>ВидСобытия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыКадровыхСобытий</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="35b9f44c-5187-4c6f-b562-f722f9b3c550">
+				<Properties>
+					<Name>ВидЗанятости</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыЗанятости</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="c281f42d-fd1d-4717-8ffc-81d0dec323ea">
+				<Properties>
+					<Name>ВидДоговора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДоговоровССотрудниками</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="7fcaac24-6e01-40d2-818b-a214b69adbac">
+				<Properties>
+					<Name>ДействуетДо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9ce88d44-c107-482f-9f18-8cbf7e5367cd">
+				<Properties>
+					<Name>ГоловнойСотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="6d2fd025-2de3-436b-887e-499635fc7ac1">
+				<Properties>
+					<Name>ЭтоГоловнойСотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="c1d59bfe-e660-455e-9543-aa1cbf695fb0">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7b96516d-e10b-4c9a-8af4-a91d3fb649c8">
+				<Properties>
+					<Name>ГоловнаяОрганизация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="76d9a32e-9095-4915-9805-988c0447f119">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

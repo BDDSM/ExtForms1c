@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Enum uuid="1cb0d2e8-034c-4995-b653-320d353577bc">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДоговоровССотрудниками" category="Ref">
+				<xr:TypeId>63e2a2b2-9988-49ab-8494-85fe956c2bcc</xr:TypeId>
+				<xr:ValueId>5a9d1e6d-375a-406a-81de-977779ae36ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДоговоровССотрудниками" category="Manager">
+				<xr:TypeId>5919c41d-908c-4488-adc7-24b5d2124de2</xr:TypeId>
+				<xr:ValueId>804f4a35-9e1e-4ba8-b18d-6ca86d639aa4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДоговоровССотрудниками" category="List">
+				<xr:TypeId>b1bd5708-eede-42a4-a1c5-b0fdbe3c0768</xr:TypeId>
+				<xr:ValueId>a06836aa-757c-439c-b385-fb15e69f6c4a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДоговоровССотрудниками</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="828a3b21-b353-46d8-b0cf-2adb7ccf35fd">
+				<Properties>
+					<Name>ТрудовойДоговор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
