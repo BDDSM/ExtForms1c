@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name xmlns="">СложениеДвухЧисел</name>
+	<test-cases xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<test-case start="63662870392223" stop="63662870393664" status="passed">
+			<name>Сложение двух чисел 5 и 20.5</name>
+			<steps>
+				<step start="63662870393226" stop="63662870393226" status="passed">
+					<name>Допустим У меня есть первое слагаемое равное 5</name>
+					<title>Допустим У меня есть первое слагаемое равное 5</title>
+				</step>
+				<step start="63662870393457" stop="63662870393457" status="passed">
+					<name>И У меня есть второе слагаемое равное 20.5</name>
+					<title>И У меня есть второе слагаемое равное 20.5</title>
+				</step>
+				<step start="63662870393664" stop="63662870393664" status="passed">
+					<name>Тогда Результат сложения равен 25.5</name>
+					<title>Тогда Результат сложения равен 25.5</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Сложение двух чисел 5 и 20.5"/>
+			</labels>
+		</test-case>
+		<test-case start="63662870393900" stop="63662870394721" status="passed">
+			<name>Сложение двух чисел 12 и 40</name>
+			<steps>
+				<step start="63662870394304" stop="63662870394304" status="passed">
+					<name>Допустим У меня есть первое слагаемое равное 12</name>
+					<title>Допустим У меня есть первое слагаемое равное 12</title>
+				</step>
+				<step start="63662870394520" stop="63662870394520" status="passed">
+					<name>И У меня есть второе слагаемое равное 40</name>
+					<title>И У меня есть второе слагаемое равное 40</title>
+				</step>
+				<step start="63662870394721" stop="63662870394721" status="passed">
+					<name>Тогда Результат сложения равен 52</name>
+					<title>Тогда Результат сложения равен 52</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Сложение двух чисел 12 и 40"/>
+			</labels>
+		</test-case>
+		<test-case start="63662870395143" stop="63662870395538" status="pending">
+			<name>Умножение двух чисел 3 и 11</name>
+			<failure>
+				<message>Не реализовано.</message>
+			</failure>
+			<steps>
+				<step start="63662870395521" stop="63662870395537" status="pending">
+					<name>Допустим У меня есть первый множитель равный 3</name>
+					<title>Допустим У меня есть первый множитель равный 3</title>
+				</step>
+				<step start="63662870395538" stop="63662870395538" status="skipped">
+					<name>И У меня есть Второй множитель равный 11</name>
+					<title>И У меня есть Второй множитель равный 11</title>
+				</step>
+				<step start="63662870395538" stop="63662870395538" status="skipped">
+					<name>Тогда Результат умножения равен 33</name>
+					<title>Тогда Результат умножения равен 33</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Умножение двух чисел 3 и 11"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<label name="feature" value="СложениеДвухЧисел"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>
