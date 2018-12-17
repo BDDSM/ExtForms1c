@@ -46,6 +46,8 @@
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Дата</dataPath>
 				<field>Дата</field>
+				<appearance/>
+				<inputParameters/>
 			</field>
 			<dataSource>ИсточникДанных1</dataSource>
 			<query>ВЫБРАТЬ
@@ -76,7 +78,7 @@
 				</DateQualifiers>
 			</valueType>
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-			<useRestriction>true</useRestriction>
+			<useRestriction>false</useRestriction>
 			<inputParameters/>
 		</parameter>
 		<parameter>
@@ -94,7 +96,7 @@
 				</DateQualifiers>
 			</valueType>
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-			<useRestriction>true</useRestriction>
+			<useRestriction>false</useRestriction>
 			<inputParameters/>
 		</parameter>
 		<settingsVariant>
@@ -127,6 +129,22 @@
 			<field>ДатаПоступления</field>
 		</item>
 	</selection>
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Организация</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="dcscor:DesignTimeValue"/>
+			<userSettingID>a8a0e78c-6947-4992-8d0e-3bbf48abe30b</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Контрагент</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="dcscor:DesignTimeValue"/>
+			<userSettingID>0e6cf629-f52d-4589-b371-0e9a6b5c83dc</userSettingID>
+		</item>
+	</filter>
 	<dataParameters/>
 	<order>
 		<item xsi:type="OrderItemField">
